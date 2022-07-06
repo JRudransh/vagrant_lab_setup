@@ -19,7 +19,7 @@ Vagrant.configure("2") do |config|
     kali.vm.hostname = "kali.anslab.com"
     kali.vm.network "private_network", ip: "192.168.10.3", virtualbox__intnet: "vagrant"
     kali.vm.provision "shell", path: "bootstrap.sh"
-    # kali.vm.provision "shell", path: "custom/kali.sh"
+    kali.vm.provision "shell", path: "custom/kali.sh"
   end
 
   config.vm.define "ubuntu" do |ubuntu|
