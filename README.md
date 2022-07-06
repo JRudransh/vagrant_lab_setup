@@ -22,4 +22,4 @@ Just run `run.sh` and everything will be done
 Simpally do `vagrant ssh kali` and you will get kali terminal
 
 ## Note
-1. If you want to at time of vagrant boot just comment `line no 9`:-`vb.gui = false` in `Vagrantfile`
+1. If you want to boot kali at time of vagrant boot just comment `line no 9`:-`vb.gui = false` in `Vagrantfile`
